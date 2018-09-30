@@ -3,7 +3,14 @@ Event Management
 ****************
 
 .. toctree::
-    :maxdepth: 2
+   :maxdepth: 1
+   :caption: Back to
 
-    gettingstarted
-    event_overview
+   EnOS fundamental <https://docs.envisioniot.com/docs/enos/en/latest/overview/enos_introduction.html>
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Event management
+
+   gettingstarted
+   event_overview
