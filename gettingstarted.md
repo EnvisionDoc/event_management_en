@@ -17,9 +17,10 @@ For more information, see [Creating event groups](create_event_group.md).
 
 ### Step 2: Configuring event contents
 
-For more information, see
 
 For more information, see [Creating event content](create_event_content.md).
 
 
 ### Step 3: Configuring event rules
+
+For more information, see [Creating event rules](create_event_rule.md).
