@@ -6,21 +6,13 @@ To define contents for an event, you'll provide the event ID, description, event
 
 Define the event groups that you'll need to select from when defining the event content. For more information, see [Creating event groups](create_event_group.md).
 
-##
+## Procedure
 
-定义事件的具体内容，主要包括**事件ID**，**描述**，**事件类型**，**设备类型**四个部分，**事件类型** 需要和事件分组中的类型ID进行关联，设备类型通常指这个事件来自什么类型的设备。事件内容定义除了以上四个必要属性外，还可以对每一个事件定义其产生的原因和可能的解决方案。
-
-告警内容的定义过程如下：
-
-1. 选择“内容定义”菜单；
-
-在事件管理菜单中选择“内容定义”，然后选中对应的领域：风电
+1. Click **Event Management > Event Contents** from the left navigation panel of the EnoS Console, and select the domain to configure event groups for. For the sample scenario, select **Wind**.
 
 ![1](/media/2018-1-12 18-20-01.png)
 
-2. 添加告警内容
-
-点击**添加告警**内容后，出现如下画面，在其中填入：
+2. Click **Add Event** and provide the following settings:
 
 ![1](/media/2018-1-12 18-20-39.png)
 
@@ -48,4 +40,4 @@ o   选择生成该告警的设备，当前示例选择风机即可
 
 o   定义告警内容的时候，还可以对每一条告警内容定义告警产生的原因和对应的解决方案，可以直接文本输入，时非必填项。
 
-【注意】：有多语言需求的，需要在英文环境下再输入一遍每一条告警内容的告警描述。
+**Note**：有多语言需求的，需要在英文环境下再输入一遍每一条告警内容的告警描述。

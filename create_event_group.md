@@ -1,20 +1,12 @@
 # Creating event groups
 
-According to the the type of the the events and priority that you must place to handle the events, define the event groups.
-
-针对告警所属的分类和处理优先级，对定义告警的类型与等级。
+To categorize the events and set priority that you must place to handle the events, define the event groups.
 
 For an event type, you can define sub-types according to your needs. After you enter the event type and severity name, EnOS automatically assigns type ID and severity ID.
 
-定义事件的等级和类型，每一种类型下面还可以定义不同的子类型。输入类型和等级定义的描述信息后，系统会自动生成对应的等级和类型ID。
-
 The settings and description about the event groups supports globalization.
 
-事件分组的描述支持国际化定义。
-
 ## Before you start
-
-一般设备的告警类型与等级可以在设备说明书当中找到，当然也可以基于用户自身对设备的理解自定义类型与等级。例如，针对箱变温度超过85℃，存在潜在安全风险，因此告警类型定义为“EHS安全”，告警等级定义为警告。同时，因为这个告警是基于温度超过85℃定义的，也可以将其告警类型定义为“遥测越限”，具体归属于哪个类型与等级，由领域应用方决定。
 
 For a specific domain device, the event types and severities definitions are typically found in its instructions; although you can customize the definitions according to your business needs too.
 
@@ -22,7 +14,7 @@ For example, a padmount transformer, potential security risks exist when the tem
 
 ## Configuring event severity
 
-1. 首先在事件管理的菜单中选中“**事件分组**”，并在页面上方选中需要配置的领域，如下图：
+1. Click **Event Management > Event Groups** from the left navigation panel of the EnoS Console, and select the domain to configure event groups for.
 
   ![1](/media/2018-1-12 18-09-34.png)
 
@@ -51,8 +43,6 @@ For example, a padmount transformer, potential security risks exist when the tem
 ## Configuring event types
 
 告警类型包括告警类型和子类型，需要先定义告警类型，每一个告警类型下还需要定义子类型
-
-
 
 1. 定义告警类型
 

@@ -10,18 +10,22 @@ Event Management
 
 .. toctree::
    :maxdepth: 1
-   :caption: Event management
+   :caption: Learn
 
    gettingstarted
    event_overview
+
+.. toctree::
+   :maxdepth: 1
+   :caption: How-to's
+
+   event_mgmt_example
    create_event_group
    create_event_content
    create_event_rule
-   event_mgmt_example
 
 .. toctree::
    :maxdepth: 1
    :caption: Related services
 
-   device_connection/try/index
-   Device connection <https://docs.eniot.com/docs/device-connection/en/latest/deviceconnection_overview.html>
+   Device connection <https://docs.envisioniot.com/docs/device-connection/en/latest/deviceconnection_overview.html>
