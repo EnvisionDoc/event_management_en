@@ -16,7 +16,7 @@ Ensure that the event content to be used by the triggering rule is created. For 
 
 2.  Click the **Add rule** button in the domain to where the event group belongs.
 
-  ![1](/media/create_triggering_rules_windows.PNG)
+  ![1](/media/create_triggering_rules_windows.png)
 
 
   - **Select Event Source**
@@ -55,4 +55,4 @@ Ensure that the event content to be used by the triggering rule is created. For 
 
    In this example, if the DI value of the wind turbine retured from the measuring point is _1_, which means _shutdown_ and other conditions are all matched, an event will be triggered .
 
-![1](/media/example_configure_wind_trubines_triggering_rule.PNG)
+![1](/media/example_configure_wind_trubines_triggering_rule.png)

@@ -18,7 +18,7 @@ For example, a padmount transformer, potential security risks exist when the tem
 
 2. Click **Add Severity Level** and provide the description for corresponding severity level. The severity ID will be automatically assigned by the system upon submit.
 
-    ![configure severity](/media/Create_Severity_Level_window.PNG)
+    ![configure severity](/media/create_severity_level_window.png)
 
 The severity levels are mainly used for filtering the event messages on GUI and analyzing the historical events. The domain application identifies the severity of the event by the ID of the severity level.
 
@@ -63,4 +63,4 @@ You can define types and subtypes to facilitate your event management. A event t
 
 Click the `add subtype` of the event type where the subtype belongs. The ID is assigned by the system.
 
-![1](/media/Create_SubType_window.PNG)
+![1](/media/create_subtype_window.png)
