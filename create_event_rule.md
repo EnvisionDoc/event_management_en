@@ -1,61 +1,58 @@
 # Creating event rules
 
-定义产生事件的具体规则，当前只能针对设备领域点的某一个测点或设备通讯模块中的某一个设备点进行规则定义。如对风机设备中的风速，定义当风速大于30m/s时产生一条事件，同时定义出产生的这条事件的等级，等级需要和事件分组中定义的事件等级ID进行关联。
+This topic instructs how to create the triggering rule of an event.
+
+You can define triggering rules for a data measuring point of a domain or the communication model of a device point.
+
+In wind turbine example, you can define a triggering rule when the wind speed is over 30m/s, the severity level, and the content to report when the event occurs.
 
 ## Before you start
 
-When you define a triggering rule, you'll need to specify the event content to generate when the event is triggered. Therefore, you must have completed defining event contents for the domain.  For more information, see [Creating event contents](create_event_content.md).
+Ensure that the event content to be used by the triggering rule is created. For more information, see [Creating event contents](create_event_content.md).
 
 ## Procedure
 
-1. Click **Event Management > Triggering rules** from the left navigation panel of the EnoS Console, and select the domain to configure event groups for.
+1. Click **Event Management > Triggering rules** from the left navigation panel of the EnoS Console.
 
-![1](/media/2018-1-12 18-22-16.png)
+2.  Click the **Add rule** button in the domain to where the event group belongs.
 
-2. 在产生规则页面中，选择添加规则，出现如下弹框：
+  ![1](/media/create_triggering_rules_windows.PNG)
 
-![1](/media/2018-1-12 18-22-41.png)
 
-  - **对象选择**
+  - **Select Event Source**
 
-  如图中“选择框1”所示，先选择“领域点”，然后选择设备模型类型“风机”，然后选择具体的设备模型“双馈风机”，然后选择对应的领域点“WTUR.TurbineSts”，该点即为风机设备模型中定义的风机状态对应的领域点，风机状态点将会被映射到这个点上。
+     The event source is the domain point of the wind turbine state that is defined in the **Device Models**, the state point of the wind turbine is mapping to this domain point. For more information, see [Device modelling]<https://docs.eniot.com/docs/device-connection/en/latest/device_modelling/model_overview.html>.
 
-  - **触发条件**
+  - **Triggering Condition**
 
-  如图中“选择框2”所示，选择普通模式，实时，DI，当值=x的时候触发，如风机状点有1,2,3,4,5五个值，则需要为每一个值建一条规则，如图所示为当值=1的时候触发告警；
+    - If you choose _di_, specify a value that triggers the event.
+    - If you choose _ai_, specify a value range that triggers the event.
 
-  - **应用对象**
+    In the wind turbine scenario, you'll need to create a triggering rule for each DI value.
 
-    指该告警规则应用的场站和设备。
+  - **Apply to**
 
-    - 场站当前只支持全选或者单选，如果选择“场站”，则表示全选，如果选择指定场站，这只对该场站生效。
-    - 设备当前同样只支持全选或者单选，如果选择“设备”，则表示全选，如果选择指定设备，则只对该设备生效。
-    - 设备与场站级联，只有指定选择场站以后，才能制定选择设备。
+    The triggering rule can apply to a station or device.
+    You can specify all or a single site / device.
 
-  - **告警内容**
+  - **Event content to generate**
 
-  直接选择之前在“内容定义”中定义好的告警内容，需要注意选择的告警内容需要和触发条件中的值对应，在本示例中，当触发条件中定义风机状态值等于1时，生成的告警内容是“紧急停机”。
+    Select the event content that has been defined.
 
-  ​	一条告警内容可以被多条告警规则选中。
+    An event content can be assigned to multiple triggering rules.
 
-  - **告警等级**
+  - **Severity**
 
-  根据业务需求，选择之前已经定义好的某一个告警等级
+    Select a severity level, which is already defined according to your business needs.
 
-  - **规则定义注意事项**
+  - **For Recovery Event only**
 
-  以当前示例为例，在配置产生规则中，如果出现一个场站下有多风机设备型号，不同风机型号之间同一个风机状态的值对应的描述不一样，因此需要进行分别配置风机状态告警，如果这些设备型号的风机状态点都映射到同一个设备模型中的同一个点上（即WTUR.TurbineSts），则针对“领域点”的规则定义无法满足需求。
+    Check this checkbox if the triggering rule is used for a recovery event. The Recovery event represents a normal condition, which can be used to end the raised events.
 
-  如：机型A的风机状态点值“1”对应的内容是“紧急停机”，机型B的风机状态点值“1”对应的内容是“故障停机”，
+### Example of configuring a triggering rule for wind turbines
 
-  则：定义规则时只能定义当WTUR.TurbineSts=1,生成告警“紧急停机”或“故障停机”，只能生成告警内容；
+   The following figure shows an example of configuring the triggering rule for a wind turbine.
 
-  对于这种情况，可以通过对“设备点”来进行规则配置实现，如下图：
+   In this example, if the DI value of the wind turbine retured from the measuring point is _1_, which means _shutdown_ and other conditions are all matched, an event will be triggered .
 
-  配置对象，选择“设备点”，然后设备类型选择“风机”，然后选择某一种机型使用的设备接入模板，当前示例是“EOS-WIND-TURBINE-IEC104”，最后选择风机状态点的接入时的点号，当前示例di.36;
-
-  这样只要是通过这个设备模板接入的风机，其风机状态点都使用这个定义的规则生成告警
-
-  选择了设备点配置告警后，应用对象不选择，默认是对该项目全部生效，也即所有通过该设备模板接入的风机都会应用到这个规则，当然也可以进行应用对象的选择，但选择范围为使用该设备模板接入数据的所有设备的子集；
-
-  ![1](/media/2018-1-12 18-25-50.png)
+![1](/media/example_configure_wind_trubines_triggering_rule.PNG)

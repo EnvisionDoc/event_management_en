@@ -29,3 +29,10 @@ Event Management
    :caption: Related services
 
    Device connection <https://docs.envisioniot.com/docs/device-connection/en/latest/deviceconnection_overview.html>
+
+Downloads
+""""""""
+    pdf_ htmlzip_ epub_
+.. _pdf: https://docs.envisioniot.com/projects/event-management/downloads/pdf/latest/
+.. _htmlzip: https://docs.envisioniot.com/projects/event-management/downloads/htmlzip/latest/
+.. _epub: https://docs.envisioniot.com/projects/event-management/downloads/epub/latest/

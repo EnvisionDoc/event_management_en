@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# EnOS Documentation Center documentation build configuration file, created by
+# EnOS Event Management Center documentation build configuration file, created by
 # sphinx-quickstart on Fri Aug 17 15:19:38 2018.
 #
 # This file is execfile()d with the current directory set to its
@@ -59,7 +59,7 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
-project = 'EnOS Documentation Center'
+project = 'EnOS Event Management'
 copyright = '2018, EnOS'
 author = 'Envision Digital'
 
@@ -168,7 +168,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'EnOSDocumentationCenter.tex', 'EnOS Documentation',
+    (master_doc, 'EnOSDocumentationCenter.tex', 'EnOS Event Management',
      'Envision Digital', 'manual'),
 ]
 
@@ -178,7 +178,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'enosdocumentationcenter', 'EnOS Documentation',
+    (master_doc, 'enosdocumentationcenter', 'EnOS Event Management',
      [author], 1)
 ]
 
@@ -189,7 +189,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'EnOSDocumentationCenter', 'EnOS Documentation',
+    (master_doc, 'EnOSDocumentationCenter', 'EnOS Event Management',
      author, 'EnOSDocumentationCenter', 'One line description of project.',
      'Miscellaneous'),
 ]
