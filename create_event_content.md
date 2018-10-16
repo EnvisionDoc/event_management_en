@@ -11,8 +11,8 @@ Ensure the event group that the event content record belongs to is created. For 
 1. Click **Event Management > Event Contents** from the left navigation panel of the EnoS Console.
 
 2. Click **Add Event** in the domain where the event group belongs.
-
-  ![1](/media/create_event_window.png)
+ 
+   ![1](media/create_event_wind.png)
 
   - **Event ID**
 
@@ -39,5 +39,5 @@ Ensure the event group that the event content record belongs to is created. For 
     In wind turbines example, the device type is _turbines_.   
 
   - **Causes and Resolutions(Optional)**：
-  
+
     Addition information in text format about the causes and resolution of this event.
