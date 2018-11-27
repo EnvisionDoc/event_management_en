@@ -1,27 +1,30 @@
-# Getting started with event management
+# Getting started with alert management
 <!--
 The short description should be a single, concise paragraph that contains one or two sentences and no more than 50 words.
 Briefly mention what the user's learning goal is and include the following SEO keywords in the title short description: EnOS, ServiceName, tutorial.
 -->
 
-A typical flow to configure event management for your devices connected to EnOS cloud is as follow.
+This section describes a typical flow to configure and manage alert severity levels, alert types, alert content, and alert rules for your assets in EnOS cloud.
 
-### Step 1: Configuring event groups
+### Step 1: Configuring alert severity levels
 
-To categorize the events and set priority that you must place to handle the events, define the event groups.
+To categorize alerts by severity levels so that you can properly handle the alerts, define alert severity levels for your organization.
 
-1. Configuring event severity
-2. Configuring event types
+For more information, see [Creating alert severity levels](create_alert_severity).
 
-For more information, see [Creating event groups](create_event_group).
+### Step 2: Configuring alert types 
 
-### Step 2: Configuring event contents
+To categorize alerts by types to distinguish status of assets and possible causes of alerts, so that you can better monitor the status of your assets.
 
-To define contents for an event, you'll provide the event ID, description, event type and sub, device type, and the causes and resolutions for the event.
+For more information, see [Creating alert types](create_alert_type).
 
-For more information, see [Creating event content](create_event_content).
+### Step 3: Configuring alert content
+
+To define content for an alert, you will provide the alert ID, description, alert type and subtype, and the causes and solutions for the alert.
+
+For more information, see [Creating alert content](create_alert_content).
 
 
-### Step 3: Configuring event rules
+### Step 4: Configuring alert rules
 
-For more information, see [Creating event rules](create_event_rule).
+To define the triggering condition and scope for an alert, configure alert rules. For more information, see [Creating alert rules](create_alert_rule).

@@ -4,6 +4,7 @@ Event Management
 
 .. toctree::
    :maxdepth: 1
+   :hidden: 
    :caption: Back to
 
    EnOS fundamental <https://docs.envisioniot.com/docs/enos/en/latest/overview/enos_introduction.html>
@@ -12,17 +13,17 @@ Event Management
    :maxdepth: 1
    :caption: Learn
 
+   alert_overview   
    gettingstarted
-   event_overview
 
 .. toctree::
    :maxdepth: 1
    :caption: How-to's
 
-   event_mgmt_example
-   create_event_group
-   create_event_content
-   create_event_rule
+   create_alert_severity
+   create_alert_type
+   create_alert_content
+   create_alert_rule
 
 .. toctree::
    :maxdepth: 1
