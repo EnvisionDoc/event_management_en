@@ -31,7 +31,8 @@ Meanwhile, you can define alert severity levels and alert types according to the
 
 Alert Management service provides APIs for alert data related actions such as querying, subscribing, and pushing alerts. You can develop your own alarming applications or perform analytics based on these APIs. By subscribing to alerts and integrating with email service or message service, you can also develop your own alarming applications such as alert pop-ups, real-time and historical alert inquiry, and email and message alerts.
 
-**Support integrating 3rd-party event data**
+**Support integrating 3rd-party alert data**
+
 EnOS can also accept alert data that are generated from third-party systems. For example, in the ship-building industry, the on-site SCADA can forward the alert data received from the ship communication network to EnOS in a standard alert data format. You can then use EnOS alert management service APIs for your alert related applications.
 
 **Note**:

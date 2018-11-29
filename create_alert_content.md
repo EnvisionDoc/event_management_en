@@ -24,15 +24,14 @@ Ensure the alert type that the alert content record belongs to is created. For m
     + `ST` represents the state of the device.
     + `001` represents the DI value of the device.
 
-  - **Description**
+  - **Content Description**
 
-    In the wind turbine example, the description of the alert can be the description of the DI value.
+    Enter description of the alert content. In the wind turbine example, the description of the alert can be the description of the DI value.
 
-  - **Device Model**
-    Select a device type from the list.
+  - **Model**
 
-    In wind turbines example, the device type is _turbines_.   
+    Select a device type from the list. In the wind turbines example, the device type is _turbines_.   
 
-- **Alert Type / Subtype**
+- **Type / Subtype**
 
-  Select an alert type and subtype from the list according to the actual business needs.
+  Select an alert type and subtype from the list of defined alert types.

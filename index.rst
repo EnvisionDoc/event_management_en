@@ -1,5 +1,5 @@
 ****************
-Event Management
+Asset Alert  Management
 ****************
 
 .. toctree::
