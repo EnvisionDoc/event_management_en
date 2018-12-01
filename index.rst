@@ -14,6 +14,11 @@ Asset Alert  Management
    :caption: Learn
 
    alert_overview   
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Getting started
+
    gettingstarted
 
 .. toctree::

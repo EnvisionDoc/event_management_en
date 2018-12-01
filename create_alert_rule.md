@@ -16,7 +16,7 @@ Ensure that the alert content to be used by the triggering rule is created. For 
 
 2. Click the **New Rule** button to define a new alert triggering rule.
 
-   ![creat rule](media/create_triggering_rules_wind.png)
+   ![creat rule](media/create_alert_rule.png)
 
    - **Select model**
 
