@@ -1,4 +1,4 @@
-# Creating alert rules
+# Creating Alert Rules
 
 This topic instructs how to create the triggering rules of an alert.
 
@@ -6,9 +6,9 @@ You can define alert triggering rules for a data measuring point of a domain or 
 
 In wind turbine example, you can define an alert triggering rule when the wind speed is over 30m/s, the severity level, and the content to report when the alert occurs.
 
-## Before you start
+## Before You Start
 
-Ensure that the alert content to be used by the triggering rule is created. For more information, see [Creating alert content](create_alert_content).
+Ensure that the alert content to be used by the triggering rule is created. For more information, see [Creating Alert Content](create_alert_content).
 
 ## Procedure
 
@@ -20,7 +20,7 @@ Ensure that the alert content to be used by the triggering rule is created. For 
 
    - **Select model**
 
-     Select the asset model that is defined in the **Model** section. For more information, see [Device modelling]<https://docs.eniot.com/docs/device-connection/en/latest/device_modelling/model_overview.html>.
+     Select the asset model that is defined in the **Model** section. For more information, see [Model Management](https://docs.envisioniot.com/docs/device-connection/en/latest/deviceconnection_overview.html#model-management).
 
    - **Condition**
 

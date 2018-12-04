@@ -7,7 +7,7 @@ Asset Alert  Management
    :hidden: 
    :caption: Back to
 
-   EnOS fundamental <https://docs.envisioniot.com/docs/enos/en/latest/overview/enos_introduction.html>
+   EnOS Fundamental <https://docs.envisioniot.com/docs/enos/en/latest/overview/enos_introduction.html>
 
 .. toctree::
    :maxdepth: 1
@@ -34,7 +34,7 @@ Asset Alert  Management
    :maxdepth: 1
    :caption: Related services
 
-   Device connection <https://docs.envisioniot.com/docs/device-connection/en/latest/deviceconnection_overview.html>
+   Device Connection <https://docs.envisioniot.com/docs/device-connection/en/latest/deviceconnection_overview.html>
 
 Downloads
 """"""""

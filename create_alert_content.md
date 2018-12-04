@@ -1,10 +1,10 @@
-# Creating alert content
+# Creating Alert Content
 
 This topic instructs how to create an alert content record. To define content for an alert, you will provide the alert content ID, description, device model, alert type and subtype.
 
-## Before you start
+## Before You Start
 
-Ensure the alert type that the alert content record belongs to is created. For more information, see [Creating alert types](create_alert_type).
+Ensure the alert type that the alert content record belongs to is created. For more information, see [Creating Alert Types](create_alert_type).
 
 ## Procedure
 

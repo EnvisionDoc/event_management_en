@@ -1,18 +1,18 @@
-# Creating alert severity levels
+# Creating Alert Severity Levels
 
 This topic instructs how to create alert severity levels for your assets via the **Asset Alert** page on EnOS Console.
 
 To define an alert severity level, you need to provide an ID, description, and tag for it. The description of the alert severity supports globalization, so that you can define different languages of alert content.
 
-## Before you start
+## Before You Start
 
 For a specific domain asset, the alert severity level definitions are typically found in its instructions; although you can customize the definitions according to your business needs or best practices in the domain.
 
 For example, a padmount transformer, potential security risks exist when the temperature exceeds 85 degrees centigrade. Therefore, the severity level is *Warning* according to the device instructions. However, if the temperature exceeds 100 degrees centigrade, you can define the severity level as *Fault* because the device might stop working.
 
-## Configuring alert severity
+## Configuring Alert Severity
 
-1. Click **Asset Alert > Alert Severity** from the left navigation panel of the EnoS Console, and select the domain to configure event groups for.
+1. Click **Asset Alert > Alert Severity** from the left navigation panel of the EnoS Console.
 
 2. Click **New Severity Level** and provide an ID, description, and tag (optional) for the corresponding severity level.
 
@@ -20,7 +20,7 @@ For example, a padmount transformer, potential security risks exist when the tem
 
 The severity levels are mainly used for filtering the alert messages on GUI and analyzing the historical alerts. The domain application identifies the severity of the alert by the ID of the severity level.
 
-### Example of severity levels
+### Example of Severity Levels
 
 The following table shows a typical list of severity levels:
 
