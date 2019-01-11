@@ -16,7 +16,8 @@ Ensure that the alert content to be used by the triggering rule is created. For 
 
 2. Click the **New Rule** button to define a new alert triggering rule.
 
-   ![creat rule](media/create_alert_rule.png)
+   .. image:: media/create_alert_rule.png
+      :width: 800px
 
    - **Select model**
 
@@ -24,7 +25,7 @@ Ensure that the alert content to be used by the triggering rule is created. For 
 
    - **Condition**
 
-     Select a triggering condition for the alert rule and enter the corresponding value or value scope for the condition. 
+     Select a triggering condition for the alert rule and enter the corresponding value or value scope for the condition.
 
    - **Scope**
 

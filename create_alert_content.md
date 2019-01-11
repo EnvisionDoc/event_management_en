@@ -10,9 +10,10 @@ Ensure the alert type that the alert content record belongs to is created. For m
 
 1. Click **Asset Alert > Alert Content** from the left navigation panel of the EnoS Console.
 
-2. Click **Add Content**, and provide the needed information for the alert content. 
+2. Click **Add Content**, and provide the needed information for the alert content.
 
-   ![1](media/create_alert_content.png)
+   .. image:: media/create_alert_content.png
+      :width: 700px
 
   - **Content ID**
 

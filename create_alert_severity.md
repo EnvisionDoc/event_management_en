@@ -16,7 +16,8 @@ For example, a padmount transformer, potential security risks exist when the tem
 
 2. Click **New Severity Level** and provide an ID, description, and tag (optional) for the corresponding severity level.
 
-   ![configure severity](media/create_severity_level.png)
+   .. image:: media/create_severity_level.png
+      :width: 800px
 
 The severity levels are mainly used for filtering the alert messages on GUI and analyzing the historical alerts. The domain application identifies the severity of the alert by the ID of the severity level.
 
@@ -24,23 +25,16 @@ The severity levels are mainly used for filtering the alert messages on GUI and 
 
 The following table shows a typical list of severity levels:
 
-<table>
-  <tr>
-    <th>Severity Level ID</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td>398000001</td>
-    <td>Info</td>
-  </tr>
-  <tr>
-    <td>398000002</td>
-    <td>Warning</td>
-  </tr>
-  <tr>
-    <td>398000003</td>
-    <td>Fault</td>
-  </tr>
-<table>
+.. list-table::
+   :widths: 50 50
+
+   * - Severity Level ID
+     - Description
+   * - 398000001
+     - Info
+   * - 398000002
+     - Warning
+   * - 398000003
+     - Fault
 
 The severity level can be used as a key value in the application for a domain. The application needs to know the corresponding meaning of each severity level. For example, in your alert application for a domain, you can set to display only the alerts with severity _Warning_ and _Fault_ in the GUI. This feature is achieved by setting to show alerts with severity level ID _398000002_ or _398000003_.

@@ -18,15 +18,20 @@ You can define types and subtypes to facilitate the alert management of your ass
 
 1. Click **Asset Alert > Alert Type** from the left navigation panel of the EnoS Console.
 
-2. Click **New Type** and provide an ID, description, and tag (optional) for the alert type. 
+2. Click **New Type** and provide an ID, description, and tag (optional) for the alert type.
 
-   ![configue event types](media/create_alert_type.png)
+   .. image:: media/create_alert_type.png
+      :width: 800px
 
 ### Defining a Subtype
 
 After an alert type is created, you can create a subtype for it to subdivide the definition of alert types.
 
 1. In the table of alert types, click the **Create Subtype** icon from the **Operations** column.
-2. Provide an ID, description, and tag (optional) for the subtype. 
 
-![1](media/create_alert_subtype.png)
+2. Provide an ID, description, and tag (optional) for the subtype.
+
+.. image:: media/create_alert_subtype.png
+   :width: 800px
+
+<!--end-->
