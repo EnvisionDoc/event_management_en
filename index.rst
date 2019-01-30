@@ -2,12 +2,6 @@
 Asset Alert  Management
 ****************
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: Back to
-
-   EnOS™ Fundamental <https://docs.envisioniot.com/docs/enos/en/latest/overview/enos_introduction.html>
 
 .. toctree::
    :maxdepth: 1
@@ -34,11 +28,11 @@ Asset Alert  Management
    :maxdepth: 1
    :caption: Related services
 
-   Device Connection <https://docs.envisioniot.com/docs/device-connection/en/latest/device_management_overview.html>
+   Device Connection <https://www.envisioniot.com/docs/device-connection/en/latest/device_management_overview.html>
 
 Downloads
 """"""""
     pdf_ htmlzip_ epub_
-.. _pdf: https://docs.envisioniot.com/projects/event-management/downloads/pdf/latest/
-.. _htmlzip: https://docs.envisioniot.com/projects/event-management/downloads/htmlzip/latest/
-.. _epub: https://docs.envisioniot.com/projects/event-management/downloads/epub/latest/
+.. _pdf: https://www.envisioniot.com/projects/event-management/downloads/pdf/latest/
+.. _htmlzip: https://www.envisioniot.com/projects/event-management/downloads/htmlzip/latest/
+.. _epub: https://www.envisioniot.com/projects/event-management/downloads/epub/latest/

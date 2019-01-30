@@ -21,7 +21,7 @@ Ensure that the alert content to be used by the triggering rule is created. For 
 
    - **Select model**
 
-     Select the asset model that is defined in the **Model** section. For more information, see [Model Management](https://docs.envisioniot.com/docs/device-connection/en/latest/deviceconnection_overview.html#model-management).
+     Select the asset model that is defined in the **Model** section. For more information, see [Model Management](https://www.envisioniot.com/docs/device-connection/en/latest/deviceconnection_overview.html#model-management).
 
    - **Condition**
 
