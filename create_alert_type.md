@@ -21,7 +21,7 @@ You can define types and subtypes to facilitate the alert management of your ass
 2. Click **New Type** and provide an ID, description, and tag (optional) for the alert type.
 
    .. image:: media/create_alert_type.png
-      :width: 800px
+      
 
 ### Defining a Subtype
 
@@ -32,6 +32,6 @@ After an alert type is created, you can create a subtype for it to subdivide the
 2. Provide an ID, description, and tag (optional) for the subtype.
 
 .. image:: media/create_alert_subtype.png
-   :width: 800px
+   
 
 <!--end-->

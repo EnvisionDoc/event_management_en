@@ -12,7 +12,7 @@ The alert management message flow and the key concepts are illustrated in the fo
 
 .. image:: media/alert_message_flow.png
    :alt: Figure: Event management message flow
-   :width: 500px
+   
 
 ## Major Functions
 

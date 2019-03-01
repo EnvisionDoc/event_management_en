@@ -13,7 +13,7 @@ Ensure the alert type that the alert content record belongs to is created. For m
 2. Click **Add Content**, and provide the needed information for the alert content.
 
    .. image:: media/create_alert_content.png
-      :width: 700px
+      
 
   - **Content ID**
 

@@ -17,7 +17,7 @@ For example, a padmount transformer, potential security risks exist when the tem
 2. Click **New Severity Level** and provide an ID, description, and tag (optional) for the corresponding severity level.
 
    .. image:: media/create_severity_level.png
-      :width: 800px
+      
 
 The severity levels are mainly used for filtering the alert messages on GUI and analyzing the historical alerts. The domain application identifies the severity of the alert by the ID of the severity level.
 
